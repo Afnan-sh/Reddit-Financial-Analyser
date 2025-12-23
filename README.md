@@ -55,8 +55,9 @@ $$
 │   ├── dividends/
 │   ├── investing/
 │   └── ...
-├── 1_clean_data.py            # Script: ETL, cleaning, and filtering
-├── 3_holistic_analysis.py     # Script: AI Inference and Market Comparison
+├── 1_scraper.py                # Script: Scraping ans storing in json
+├── 2_clean_data.py            # Script: ETL, cleaning, and filtering
+├── 3_analysis.py     # Script: AI Inference and Market Comparison
 ├── cleaned_reddit_data.csv    # Output: Processed dataset (Generated)
 ├── final_sentiment_analysis.csv # Output: Final scored dataset
 ├── README.md                  # Documentation
