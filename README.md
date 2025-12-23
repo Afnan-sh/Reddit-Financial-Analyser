@@ -27,9 +27,7 @@ The project follows a modular ETL (Extract, Transform, Load) & Analysis workflow
 
 ### 1. The Math
 We don't count every post equally. A post with 5,000 upvotes carries more weight than one with 2.
-$$
-\text{Weighted Score} = \text{FinBERT Score} \times \log(1 + \text{Upvotes} + \text{Comments})
-$$
+Weighted Score} = FinBERT Score x log(1 + Upvotes + Comments)
 
 ### 2. The Pipeline
 
